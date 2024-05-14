@@ -14,7 +14,7 @@ export const Checkout = ({ totalPrice, clientToken, cart, instance, setinstance,
         Cart Summary
       </h2>
       <p className="text-xl md:text-2xl py-3">Total|Checkout|Payment</p>
-      <h4 className="text-xl md:text-3xl">Total: Rs{totalPrice}</h4>
+      <h4 className="text-xl md:text-3xl">Total: Rs{totalPrice()}</h4>
       <div className="mt-4">
         {console.log(clientToken, cart)}
         {!clientToken || !cart?.length ? (
@@ -213,13 +213,13 @@ const Cartpage = () => {
               <div className="w-96">
 
                 <label for="address" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Your Address</label>
-                <input onChange={(e) => setAddress(e.target.value)} type="address" id="helper-text" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com"></input>
+                <input onChange={(e) => setAddress(e.target.value)} type="address" id="helper-text" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your address"></input>
 
                 <label for="helper-text" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Your Area</label>
-                <input onChange={(e) => setArea(e.target.value)} type="text" id="helper-text" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com"></input>
+                <input onChange={(e) => setArea(e.target.value)} type="text" id="helper-text" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your area/locality"></input>
 
                 <label for="helper-text" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Your Pincode</label>
-                <input onChange={(e) => setPincode(e.target.value)} type="number" id="helper-text" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com"></input>
+                <input onChange={(e) => setPincode(e.target.value)} type="number" id="helper-text" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your pincode"></input>
 
 
               </div>
