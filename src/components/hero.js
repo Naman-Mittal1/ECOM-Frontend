@@ -38,7 +38,7 @@ const Hero = () => {
                             <h4>Laptops</h4>
                             <p>Buy best in category laptops</p>
                             <div class="main-border-button">
-                              <a href="http://localhost:3000/productpage?subCategory=laptop" target="_blank">
+                              <a href="https://ecom.rozgaarcenter.com/productpage?subCategory=laptop" target="_blank">
                                 Discover More
                               </a>
                             </div>
@@ -60,7 +60,7 @@ const Hero = () => {
                             <h4>Smartphones</h4>
                             <p>Latest smartphones at best prices</p>
                             <div class="main-border-button">
-                              <a href="http://localhost:3000/productpage?subCategory=smartphones" target="_blank">
+                              <a href="https://ecom.rozgaarcenter.com/productpage?subCategory=smartphones" target="_blank">
                                 Discover More
                               </a>
                             </div>
@@ -82,7 +82,7 @@ const Hero = () => {
                             <h4>Headphones</h4>
                             <p>Best in class headphones for music lovers</p>
                             <div class="main-border-button">
-                              <a href="http://localhost:3000/productpage?subCategory=headphones" target="_blank">
+                              <a href="https://ecom.rozgaarcenter.com/productpage?subCategory=headphones" target="_blank">
                                 Discover More
                               </a>
                             </div>
@@ -104,7 +104,7 @@ const Hero = () => {
                             <h4>Accessories</h4>
                             <p>Best in class accessories</p>
                             <div class="main-border-button">
-                              <a href="http://localhost:3000/productpage?subCategory=accessories" target="_blank">
+                              <a href="https://ecom.rozgaarcenter.com/productpage?subCategory=accessories" target="_blank">
                                 Discover More
                               </a>
                             </div>
